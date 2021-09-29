@@ -11,6 +11,7 @@ Changes that are not yet released.
 ### Added
 
 - (UPSTREAM GH-181) Add zone-specific TTL support (credit: [roumano](https://github.com/roumano)).
+- (UPSTREAM GH-169) Add support for the `window` and `responses-per-second` options in rate limiting (credit: [Rowan Thorpe](https://github.com/rowanthorpe)).
 
 ### Modified
 

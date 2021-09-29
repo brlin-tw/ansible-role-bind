@@ -20,6 +20,7 @@ galaxy_info:
       - [add Debian11 by roumano · Pull Request #203 · bertvv/ansible-role-bind](https://github.com/bertvv/ansible-role-bind/pull/203)
       - Added Debian 13 support, Debian 12 isn't added as no tests have been conducted yet.
       - [Permit a different TTL per DNS Zone by roumano · Pull Request #181 · bertvv/ansible-role-bind](https://github.com/bertvv/ansible-role-bind/pull/181)
+      - [Add two RRL variables with zero-defaults config-handling by rowanthorpe · Pull Request #169 · bertvv/ansible-role-bind](https://github.com/bertvv/ansible-role-bind/pull/169)
 
     If you like/use this role, please consider giving it a star and rating it on the role's [Ansible Galaxy page](https://galaxy.ansible.com/brlin-tw/bind). Thanks!
   license: BSD

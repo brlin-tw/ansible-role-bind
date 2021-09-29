@@ -22,6 +22,7 @@ This role is a fork of the (development stalled as of 2026/10/4) [bertvv.bind](h
 - (Partially) incorporated the following features:
   - [add Debian11 by roumano · Pull Request #203 · bertvv/ansible-role-bind](https://github.com/bertvv/ansible-role-bind/pull/203)
   - Added Debian 13 support, Debian 12 isn't added as no tests have been conducted yet.
+  - [Add two RRL variables with zero-defaults config-handling by rowanthorpe · Pull Request #169 · bertvv/ansible-role-bind](https://github.com/bertvv/ansible-role-bind/pull/169)
 
 If you like/use this role, please consider giving it a star and rating it on the role's [Ansible Galaxy page](https://galaxy.ansible.com/brlin-tw/bind). Thanks!
 
@@ -66,6 +67,8 @@ The packages `python-netaddr` (required for the [`ipaddr`](https://docs.ansible.
 | `bind_other_logs`           | -                    | A list of logging channels to configure, with a separate mapping for each zone, with relevant details                                |
 | `bind_query_log`            | -                    | A mapping with keyss `file:` (e.g. `data/query.log`), `versions:`, `size:`. When defined, this will enable the query log             |
 | `bind_recursion`            | `false`              | Determines whether requests for which the DNS server is not authoritative should be forwarded†.                                      |
+| `bind_rrl_responses_per_second` | `0` (disabled)   | The maximum number of responses per second for the Response Rate Limiting (RRL) feature.                                             |
+| `bind_rrl_window`           | `15`                 | The time window in seconds for the Response Rate Limiting (RRL) feature.                                                             |
 | `bind_rrset_order`          | `random`             | Defines order for DNS round robin (either `random` or `cyclic`)                                                                      |
 | `bind_statistics_channels`  | `false`              | If `true`, BIND is configured with a `statistics-channels` clause (currently only supports listening on a single interface)          |
 | `bind_statistics_allow`     | `['127.0.0.1']`      | A list of hosts that can access the server statistics                                                                                |
@@ -394,7 +397,6 @@ You can run the acceptance tests on all servers with `molecule verify`.
 > Verification tests are done using "dig" lookup module by quering dns records and validating responses. This requires direct network communication between Ansible controller node (your machine running Ansible) and the target docker container. 
 
 ---
-
 **NOTE**
 
 Molecule verify tests will fail if docker is running on MacOS, as MacOS cannot access container IP directly. This is a known issue. See [#2670](https://github.com/docker/for-mac/issues/2670).
