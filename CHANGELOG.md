@@ -8,6 +8,10 @@ This file adheres to the guidelines of [http://keepachangelog.com/](http://keepa
 
 Changes that are not yet released.
 
+### Added
+
+- (UPSTREAM GH-181) Add zone-specific TTL support (credit: [roumano](https://github.com/roumano)).
+
 ### Modified
 
 - Add unreleased section to the changelog.
