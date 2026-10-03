@@ -1,11 +1,13 @@
 ---
 galaxy_info:
   role_name: bind
-  namespace: bertvv
-  author: Bert Van Vreckem
+  namespace: brlin-tw
+  author: 林博仁(Buo-ren Lin)
   description: >
     Sets up ISC BIND as an authoritative DNS server for one or more domains
     (primary and/or secondary).
+
+    This is a fork of bertvv.bind, incorporating various improvements and customizations.
   license: BSD
   min_ansible_version: 2.7
   platforms:
