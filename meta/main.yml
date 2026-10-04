@@ -20,6 +20,7 @@ galaxy_info:
         - stretch
         - buster
         - bullseye
+        - trixie
     - name: FreeBSD
       versions:
         - 12.1
