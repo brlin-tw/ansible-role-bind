@@ -11,6 +11,7 @@ Changes that are not yet released.
 ### Modified
 
 - Add unreleased section to the changelog.
+- Fix inaccurate downstream description.
 
 ## 6.0.3 - 2026-10-04
 

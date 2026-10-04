@@ -18,8 +18,10 @@ This role is a fork of the (development stalled as of 2026/10/4) [bertvv.bind](h
   - [Remove unnecessary extra variable by rowanthorpe · Pull Request #168 · bertvv/ansible-role-bind](https://github.com/bertvv/ansible-role-bind/pull/168)
   - [bindkeys-file should no longer be specified in named.conf for recent distro versions · Issue #229 · bertvv/ansible-role-bind](https://github.com/bertvv/ansible-role-bind/issues/229)
   - [Fix incorrect path of bind.keys in Debian by brlin-tw · Pull Request #232 · bertvv/ansible-role-bind](https://github.com/bertvv/ansible-role-bind/pull/232)
-  - [add Debian11 support by roumano · Pull Request #203 · bertvv/ansible-role-bind](https://github.com/bertvv/ansible-role-bind/pull/203)
   - [Deploy errors with "the 'dnssec-validation yes' option requires configured 'trust-anchors'; consider using 'dnssec-validation auto'" since BIND 9.19.22 · Issue #233 · bertvv/ansible-role-bind](https://github.com/bertvv/ansible-role-bind/issues/233)
+- (Partially) incorporated the following features:
+  - [add Debian11 by roumano · Pull Request #203 · bertvv/ansible-role-bind](https://github.com/bertvv/ansible-role-bind/pull/203)
+  - Added Debian 13 support, Debian 12 isn't added as no tests have been conducted yet.
 
 If you like/use this role, please consider giving it a star and rating it on the role's [Ansible Galaxy page](https://galaxy.ansible.com/brlin-tw/bind). Thanks!
 
