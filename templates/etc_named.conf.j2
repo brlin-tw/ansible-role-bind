@@ -39,7 +39,11 @@ options {
   rrset-order { order {{ bind_rrset_order }}; };
 
 {% if bind_dnssec_enable %}  dnssec-enable {{ bind_dnssec_enable }};{% endif %}
+{%- if bind_ver_installed is version('9.19.22', '<') %}
   dnssec-validation {{ bind_dnssec_validation }};
+{%- else %}
+  dnssec-validation {{ bind_dnssec_validation | ternary('auto', 'no') }};
+{%- endif %}
 
 {%- if bind_ver_installed is version('9.19.11', '<') %}
   /* Path to ISC DLV key */
