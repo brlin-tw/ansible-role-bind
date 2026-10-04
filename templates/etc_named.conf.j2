@@ -41,8 +41,10 @@ options {
 {% if bind_dnssec_enable %}  dnssec-enable {{ bind_dnssec_enable }};{% endif %}
   dnssec-validation {{ bind_dnssec_validation }};
 
+{%- if bind_ver_installed is version('9.19.11', '<') %}
   /* Path to ISC DLV key */
   bindkeys-file "{{ bind_bindkeys_file }}";
+{%- endif %}
 
   managed-keys-directory "{{ bind_dir }}/dynamic";
 
