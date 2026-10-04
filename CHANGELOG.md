@@ -4,6 +4,56 @@ This file contains al notable changes to the bind Ansible role.
 
 This file adheres to the guidelines of [http://keepachangelog.com/](http://keepachangelog.com/). Versioning follows [Semantic Versioning](http://semver.org/).  "GH-X" refers to the X'th issue/pull request on the Github project.
 
+## 6.0.3 - 2026-10-04
+
+This release only introduces downstream documentation changes.
+
+### Modified
+
+Fix missing changelog entries.
+
+## 6.0.2 - 2026-10-04
+
+This release only introduces downstream documentation changes.
+
+### Added
+
+Add information regarding the downstream fork.
+
+### Modified
+
+Fix downstream URLs in the README.
+
+## 6.0.1 - 2026-10-04
+
+This release adds some more fixes.
+
+### Added
+
+- (UPSTREAM GH-202) Added Debian 11 support (credit: [roumano](https://github.com/roumano)).
+- Added Debian 13 support, Debian 12 isn't added as no tests have been conducted yet.
+
+### Modified
+
+- (UPSTREAM GH-230) Fix incorrect path of bind.keys in Debian.
+- (UPSTREAM GH-233) Fix compatibility regarding the bind_dnssec_validation role variable since BIND 9.19.22.
+
+## 6.0.0 - 2026-10-04
+
+This is the first release of the brlin-tw downstream fork.
+
+### Added
+
+- (UPSTREAM GH-202) Added Debian 11 support (credit: [roumano](https://github.com/roumano)).
+- Added Debian 13 support, Debian 12 isn't added as no tests have been conducted yet.
+
+### Modified
+
+- (UPSTREAM GH-192) Eliminate obsoleted `dnssec-enable` option for bind version 9.16 and newer. (credit: [docsvt](https://github.com/docsvt)).
+- (UPSTREAM GH-167) Remove unintended UTF8 non-breaking spaces from the named.conf template (credit: [Rowan Thorpe](https://github.com/rowanthorpe)).
+- (UPSTREAM GH-168) Remove unnecessary `_all_addresses` template variable from the named.conf template (credit: [Rowan Thorpe](https://github.com/rowanthorpe)).
+- Change publisher identity metadata.
+
 ## 5.1.0 - 2020-09-17
 
 This release is long overdue. Apologies to all of you who have been waiting for this!
