@@ -1,6 +1,6 @@
 # Ansible role BIND
 
-[![Actions Status](https://github.com/bertvv/ansible-role-bind/workflows/CI/badge.svg)](https://github.com/bertvv/ansible-role-bind/actions)
+[![Actions Status](https://github.com/brlin-tw/ansible-role-bind/workflows/CI/badge.svg)](https://github.com/brlin-tw/ansible-role-bind/actions)
 
 An Ansible role for setting up ISC BIND as an **authoritative-only** DNS server for multiple domains. Specifically, the responsibilities of this role are to:
 
@@ -10,7 +10,7 @@ An Ansible role for setting up ISC BIND as an **authoritative-only** DNS server 
 
 This role supports multiple forward and reverse zones, including for IPv6. Although enabling recursion is supported (albeit *strongly* discouraged), consider using another role if you want to set up a caching or forwarding name server.
 
-If you like/use this role, please consider giving it a star and rating it on the role's [Ansible Galaxy page](https://galaxy.ansible.com/bertvv/bind). Thanks!
+If you like/use this role, please consider giving it a star and rating it on the role's [Ansible Galaxy page](https://galaxy.ansible.com/brlin-tw/bind). Thanks!
 
 See the [change log](CHANGELOG.md) for notable changes between versions.
 
