@@ -17,6 +17,7 @@ Changes that are not yet released.
 
 - Add unreleased section to the changelog.
 - Fix inaccurate downstream description.
+- (UPSTREAM GH-234) Fixes "INJECT_FACTS_AS_VARS default to True is deprecated, top-level facts will not be auto injected after the change" deprecation warnings.
 
 ## 6.0.3 - 2026-10-04
 

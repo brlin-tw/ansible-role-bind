@@ -16,6 +16,7 @@ galaxy_info:
       - [bindkeys-file should no longer be specified in named.conf for recent distro versions · Issue #229 · bertvv/ansible-role-bind](https://github.com/bertvv/ansible-role-bind/issues/229)
       - [Fix incorrect path of bind.keys in Debian by brlin-tw · Pull Request #232 · bertvv/ansible-role-bind](https://github.com/bertvv/ansible-role-bind/pull/232)
       - [Deploy errors with "the 'dnssec-validation yes' option requires configured 'trust-anchors'; consider using 'dnssec-validation auto'" since BIND 9.19.22 · Issue #233 · bertvv/ansible-role-bind](https://github.com/bertvv/ansible-role-bind/issues/233)
+      - ["INJECT_FACTS_AS_VARS default to `True` is deprecated, top-level facts will not be auto injected after the change" deprecation warnings · Issue #234 · bertvv/ansible-role-bind](https://github.com/bertvv/ansible-role-bind/issues/234)
     - (Partially) incorporated the following features:
       - [add Debian11 by roumano · Pull Request #203 · bertvv/ansible-role-bind](https://github.com/bertvv/ansible-role-bind/pull/203)
       - Added Debian 13 support, Debian 12 isn't added as no tests have been conducted yet.
