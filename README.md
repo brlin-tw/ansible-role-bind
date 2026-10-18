@@ -24,7 +24,7 @@ This role is a fork of the (development stalled as of 2026/10/4) [bertvv.bind](h
   - Added Debian 13 support, Debian 12 isn't added as no tests have been conducted yet.
   - [Add two RRL variables with zero-defaults config-handling by rowanthorpe · Pull Request #169 · bertvv/ansible-role-bind](https://github.com/bertvv/ansible-role-bind/pull/169)
 
-If you like/use this role, please consider giving it a star and rating it on the role's [Ansible Galaxy page](https://galaxy.ansible.com/brlin-tw/bind). Thanks!
+If you like/use this role, please consider giving it a star and rating it on the role's [Ansible Galaxy page](https://galaxy.ansible.com/ui/standalone/roles/brlin-tw/bind). Thanks!
 
 See the [change log](CHANGELOG.md) for notable changes between versions.
 
