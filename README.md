@@ -431,15 +431,14 @@ Pull requests are also very welcome. Please create a topic branch for your propo
 
 Maintainers:
 
-- [Bert Van Vreckem](https://github.com/bertvv/)
-- [Gregory Shulov](https://github.com/GR360RY)
-- [Stuart Knight](https://github.com/blofeldthefish)
+- [Buo-ren Lin](https://github.com/brlin-tw)
 
 Contributors:
 
 - [Aido](https://github.com/aido)
 - [Angel Barrera](https://github.com/angelbarrera92)
 - [B. Verschueren](https://github.com/bverschueren)
+- [Bert Van Vreckem](https://github.com/bertvv/)
 - [Boris Momčilović](https://github.com/kornrunner)
 - [Brad Durrow](https://github.com/bdurrow)
 - [Christopher Hicks](http://www.chicks.net/)
@@ -448,6 +447,7 @@ Contributors:
 - [Fazle Arefin](https://github.com/fazlearefin)
 - [flora-five](https://github.com/flora-five)
 - [Greg Cockburn](https://github.com/gergnz)
+- [Gregory Shulov](https://github.com/GR360RY)
 - [Guillaume Darmont](https://github.com/gdarmont)
 - [itbane](https://github.com/itbane)
 - [jadjay](https://github.com/jadjay)
@@ -470,6 +470,7 @@ Contributors:
 - [Romuald](https://github.com/rds13)
 - [roumano](https://github.com/roumano)
 - [Shawn Wilsher](https://github.com/sdwilsh)
+- [Stuart Knight](https://github.com/blofeldthefish)
 - [Tom Meinlschmidt](https://github.com/tmeinlschmidt)
 - [Jascha Sticher](https://github.com/itbane)
 - [Zephyr82](https://github.com/Zephyr82)
